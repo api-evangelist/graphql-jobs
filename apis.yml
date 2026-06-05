@@ -10,23 +10,25 @@ x-category: "Jobs"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Jobs
-  - Public APIs
+- Jobs
+- Public APIs
 apis:
-  - name: GraphQL Jobs
-    description: "Jobs with GraphQL"
-    humanURL: https://graphql.jobs/docs/api/
-    baseURL: https://graphql.jobs/docs/api/
-    tags:
-      - Jobs
-    properties:
-      - type: Documentation
-        url: https://graphql.jobs/docs/api/
-common:
-  - type: Website
+- name: GraphQL Jobs
+  description: "Jobs with GraphQL"
+  humanURL: https://graphql.jobs/docs/api/
+  baseURL: https://graphql.jobs/docs/api/
+  tags:
+  - Jobs
+  properties:
+  - type: Documentation
     url: https://graphql.jobs/docs/api/
-  - type: PublicAPIsListing
-    url: https://github.com/public-apis/public-apis
+  - url: graphql/graphql-jobs-graphql.md
+    type: GraphQL
+common:
+- type: Website
+  url: https://graphql.jobs/docs/api/
+- type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
