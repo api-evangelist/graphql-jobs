@@ -14,7 +14,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/graphql-jo
 name: GraphQL Jobs
 description: "Jobs with GraphQL"
 url: https://graphql.jobs/docs/api/
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-05-28'
 modified: '2026-05-28'
 x-source: public-apis/public-apis
