@@ -35,9 +35,11 @@ x-tier-reason: bulk-registered-from-public-apis
 tags:
 - Job
 - Public APIs
+- Job Board
 tags_raw:
 - Jobs
 - Public APIs
+- Job Board
 apis:
 - name: GraphQL Jobs
   description: "Jobs with GraphQL"
